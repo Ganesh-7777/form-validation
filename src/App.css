@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: url(/image/3.jpg);
+  background-size: cover;
+  height: auto;
+  padding: 3vh;
+}
+
+.main_container {
+  width: 30vw;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+.heading {
+  text-align: center;
+  color: blueviolet;
+  padding: 4px 0px;
+  margin-bottom: 4px;
+}
+
+.form_container {
+  margin: 0px 16px;  
+}
+
+.label {
+  font-weight: 500;
+}
+
+.input {
+  padding: 8px 6px;
+  margin-bottom: 4px;
+  border: none;
+  border-radius: 5px;
+  width: 95%;  
+  font-size: 16px;
+  background-color: rgb(225, 208, 240);
+}
+
+.is-invalid{
+border: 1px solid red;
+}
+
+.error {
+  color: red;
+  margin-bottom: 4px;
+}
+
+.btn {
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(74, 6, 79);
+  color: white;
+  width: 30%;
+  cursor: pointer;
+  margin: 10px 10vw;
+}
+
+.btn:hover {
+  background-color: rgba(91, 20, 92, 0.7);
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  .main_container {
+    width: 80vw;
+    height: 82vh;
+    box-sizing: content-box;
+    border-radius: 8px;
+  }
+
+  .btn {
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px 25vw;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  .main_container {
+    width: 50vw;
+    height: 85vh;
+    box-sizing: content-box;
+  }
+
+  .btn {
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px 16vw;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1024) {
+  .main_container {
+    width: 60vw;
+    height: 60vh;
+    box-sizing: content-box;
+    border-radius: 8px;
+  }
+
+  .btn {
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px 25vw;
+  }
+}
